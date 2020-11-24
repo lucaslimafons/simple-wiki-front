@@ -1,0 +1,10 @@
+.diff {
+  white-space: pre-line;
+}
+
+a {
+  &:not([href]):not([class]) {
+    color: #007bff;
+    text-decoration: none;
+  }
+}
